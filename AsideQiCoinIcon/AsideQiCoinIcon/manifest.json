@@ -1,0 +1,10 @@
+﻿{
+  "Name": "AsideQiCoinIcon",
+  "Author": "HS-Kim-Korea",
+  "Version": "1.0.0",
+  "Description": "Replace qi coin icon to can showing coin number",
+  "UniqueID": "HS-Kim-Korea.AsideQiCoinIcon",
+  "EntryDll": "AsideQiCoinIcon.dll",
+  "MinimumApiVersion": "2.10.0",
+  "UpdateKeys": []
+}
