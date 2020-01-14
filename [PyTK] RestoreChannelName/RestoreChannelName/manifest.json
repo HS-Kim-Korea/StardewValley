@@ -1,0 +1,16 @@
+﻿{
+    "Name": "RestoreChannelName",
+    "Author": "HSKim",
+    "Version": "1.0.0",
+    "Description": "Fixed to can be translating name of channels.",
+    "UniqueID": "HSKim.RestoreChannelName",
+    "EntryDll": "RestoreChannelName.dll",
+    "MinimumApiVersion": "2.10.0",
+    "UpdateKeys": [],
+    "Dependencies": [
+        {
+            "UniqueID": "Platonymous.Toolkit",
+            "IsRequired": true,
+        },
+    ]
+}
