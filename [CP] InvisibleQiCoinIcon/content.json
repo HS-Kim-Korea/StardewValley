@@ -1,0 +1,22 @@
+{
+    "Format": "1.11.0",
+    "ConfigSchema": {
+       "Enable": {
+          "AllowValues": "true, false",
+          "Default": "true"
+       }
+    },
+    "Changes": [
+       {
+          "Action": "EditImage",
+          "Target": "LooseSprites/Cursors",
+          "FromFile": "assets/empty.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 9, "Height": 10 },
+          "ToArea": { "X": 211, "Y": 373, "Width": 9, "Height": 10 },
+          "When": {
+             "Enable": "true",
+             "Language": "ko"
+          }
+       }
+    ]
+ }
