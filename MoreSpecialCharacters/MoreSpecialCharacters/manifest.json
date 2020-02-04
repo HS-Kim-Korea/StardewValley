@@ -1,0 +1,9 @@
+﻿{
+  "Name": "MoreSpecialCharacters",
+  "Author": "HS-Kim-Korea",
+  "Version": "1.0.0",
+  "Description": "Add more special characters",
+  "UniqueID": "HS-Kim-Korea.MoreSpecialCharacters",
+  "EntryDll": "MoreSpecialCharacters.dll",
+  "MinimumApiVersion": "2.10.0"
+}
