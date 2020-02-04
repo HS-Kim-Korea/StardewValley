@@ -1,0 +1,9 @@
+﻿{
+  "Name": "CustomBuff",
+  "Author": "HS-Kim-Korea",
+  "Version": "1.0.0",
+  "Description": "Register new custom buff",
+  "UniqueID": "HS-Kim-Korea.CustomBuff",
+  "EntryDll": "CustomBuff.dll",
+  "MinimumApiVersion": "2.10.0"
+}
