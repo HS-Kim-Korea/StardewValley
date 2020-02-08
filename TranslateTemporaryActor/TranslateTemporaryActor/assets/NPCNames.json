@@ -1,0 +1,53 @@
+﻿{
+  "Format": "1.0.0",
+  "NPCNames": [
+    {
+      "Name": "MrQi",
+      "NameLocalization": {
+        "ko": "미스터 치"
+      }
+    },
+    {
+      "Name": "Apples",
+      "NameLocalization": {
+        "ko": "사과"
+      }
+    },
+    {
+      "Name": "Claire",
+      "NameLocalization": {
+        "ko": "클레어"
+      }
+    },
+    {
+      "Name": "Alesia",
+      "NameLocalization": {
+        "ko": "알레시아"
+      }
+    },
+    {
+      "Name": "Isaac",
+      "NameLocalization": {
+        "ko": "이삭"
+      }
+    },
+    {
+      "Name": "Dusty",
+      "NameLocalization": {
+        "ko": "더스티"
+      }
+    },
+    {
+      "Name": "Camilla",
+      "NameLocalization": {
+        "ko": "카밀라"
+      }
+    },
+    {
+      "Name": "Scarlett",
+      "NameLocalization": {
+        "ko": "스칼렛"
+      }
+    }
+  ]
+}

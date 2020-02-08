@@ -1,0 +1,9 @@
+{
+  "Name": "TranslateTemporaryActor",
+  "Author": "HS-Kim-Korea",
+  "Version": "1.0.0",
+  "Description": "Translate temporary npc name",
+  "UniqueID": "HS-Kim-Korea.TranslateTemporaryActor",
+  "EntryDll": "TranslateTemporaryActor.dll",
+  "MinimumApiVersion": "3.2.0"
+}
