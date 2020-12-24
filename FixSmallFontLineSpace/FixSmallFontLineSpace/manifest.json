@@ -1,0 +1,9 @@
+{
+  "Name": "FixSmallFontLineSpace",
+  "Author": "HS-Kim-Korea",
+  "Version": "1.0.0",
+  "Description": "Fixes line spacing for small font",
+  "UniqueID": "HS-Kim-Korea.FixSmallFontLineSpace",
+  "EntryDll": "FixSmallFontLineSpace.dll",
+  "MinimumApiVersion": "3.2.0"
+}

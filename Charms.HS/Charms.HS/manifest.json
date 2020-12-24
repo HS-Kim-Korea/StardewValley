@@ -1,0 +1,9 @@
+﻿{
+  "Name": "Charms",
+  "Description": "Added special abilities to objects",
+  "Author": "HS-Kim-Korea",
+  "Version": "1.0.0",
+  "UniqueID": "HS-Kim-Korea.Charms",
+  "EntryDll": "Charms.HS.dll",
+  "MinimumApiVersion": "3.2.2"
+}

@@ -1,0 +1,9 @@
+﻿{
+  "Name": "AddActorsToMainEvents",
+  "Author": "HS-Kim-Korea",
+  "Version": "1.1.0",
+  "Description": "New NPCs take part in the main event",
+  "UniqueID": "HS-Kim-Korea.AddActorsToMainEvents",
+  "EntryDll": "AddActorsToMainEvents.dll",
+  "MinimumApiVersion": "3.1.0"
+}

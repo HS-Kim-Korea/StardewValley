@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FixSmallFontLineSpace", "FixSmallFontLineSpace\FixSmallFontLineSpace.csproj", "{10411597-AA07-4FC5-9626-3C74A42D8C11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10411597-AA07-4FC5-9626-3C74A42D8C11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10411597-AA07-4FC5-9626-3C74A42D8C11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10411597-AA07-4FC5-9626-3C74A42D8C11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10411597-AA07-4FC5-9626-3C74A42D8C11}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7EEB6F6-9E46-4B2B-A771-BF40A7671452}
+	EndGlobalSection
+EndGlobal

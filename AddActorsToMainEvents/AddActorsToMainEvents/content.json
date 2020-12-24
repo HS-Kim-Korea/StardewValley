@@ -1,0 +1,47 @@
+﻿{
+  "format": "1.0.0",
+  "loadActors": [
+    {
+      "name": "Victor",
+      "target": "spring24",
+      "layer": "MainEvent",
+      "position": [ 23, 21 ],
+      "direction": 2
+    },
+    {
+      "name": "Olivia",
+      "target": "spring24",
+      "layer": "MainEvent",
+      "position": [ 24, 21 ],
+      "direction": 2
+    },
+    {
+      "name": "Andy",
+      "target": "spring24",
+      "layer": "MainEvent",
+      "position": [ 5, 26 ],
+      "direction": 1
+    },
+    {
+      "name": "Susan",
+      "target": "spring24",
+      "layer": "MainEvent",
+      "position": [ 8, 31 ],
+      "direction": 0
+    },
+    {
+      "name": "Sophia",
+      "target": "spring24",
+      "layer": "MainEvent",
+      "position": [ 5, 20 ],
+      "direction": 0
+    },
+    {
+      "name": "MarlonFay",
+      "target": "spring24",
+      "layer": "MainEvent",
+      "position": [ 22, 31 ],
+      "direction": 0
+    }
+  ]
+}

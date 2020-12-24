@@ -1,0 +1,34 @@
+﻿{
+  "Debug": false,
+  "HideShadow": true,
+  "EnableFixSmallFontLineSpace": false,
+  "SmallFontLineSpace": 30,
+  "EnableFixFontPixelZoom": false,
+  "FontPixelZoom": 1.0,
+  "EnableFixFontColor": false,
+  "FontColor": [
+    //{
+    //  "Name": "스프라이트 및 스몰 폰트 검정",
+    //  "Target": [ 34, 17, 34, 255 ],
+    //  "Change": [ 0, 0, 0, 255 ]
+    //},
+    //{
+    //  "Name": "스프라이트 및 스몰 폰트 검정",
+    //  "Target": [ 30, 15, 30, 229 ],
+    //  "Change": [ 0, 0, 0, 255 ]
+    //},
+    //{
+    //  "Name": "비트맵 폰트 검정",
+    //  "Target": [ 86, 22, 12, 255 ],
+    //  "Change": [ 0, 0, 0, 255 ]
+    //}
+  ],
+  "EnableFixImgColor": false,
+  "ImgColor": [
+    //{
+    //  "Name": "돈",
+    //  "Target": [ 128, 0, 0, 255 ],
+    //  "Change": [ 255, 255, 255, 255 ]
+    //}
+  ]
+}
