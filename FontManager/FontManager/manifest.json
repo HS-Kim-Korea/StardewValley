@@ -1,0 +1,10 @@
+{
+  "Name": "FontManager",
+  "Author": "HS-Kim-Korea",
+  "Version": "1.0.0",
+  "Description": "Mod for select font and setting options.",
+  "UniqueID": "HS-Kim-Korea.FontManager",
+  "EntryDll": "FontManager.dll",
+  "MinimumApiVersion": "3.15.1",
+  "UpdateKeys": []
+}

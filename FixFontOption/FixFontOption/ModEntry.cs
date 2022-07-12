@@ -10,6 +10,7 @@ using Harmony;
 using StardewValley.BellsAndWhistles;
 using Microsoft.Xna.Framework.Graphics;
 using StardewModdingAPI.Events;
+using BmFont;
 
 namespace FixFontOption
 {
@@ -19,6 +20,7 @@ namespace FixFontOption
         internal static IModHelper helper;
         private static ModConfig config;
         private static Dictionary<int, string> debugBuffer = new Dictionary<int, string>();
+        private static bool setUpCharacterMap = false;
         public override void Entry(IModHelper helper)
         {
             ModEntry.instance = this;
@@ -59,8 +61,9 @@ namespace FixFontOption
             {
                 Log(String.Format("Enabled to fix font pixel zoom"));
                 original = typeof(SpriteText).GetMethod("setUpCharacterMap", BindingFlags.Static | BindingFlags.NonPublic);
+                prefix = typeof(ModEntry).GetMethod("SetUpCharacterMapPreFix", BindingFlags.Static | BindingFlags.Public);
                 postfix = typeof(ModEntry).GetMethod("SetUpCharacterMapPostFix", BindingFlags.Static | BindingFlags.Public);
-                harmony.Patch(original, null, new HarmonyMethod(postfix));
+                harmony.Patch(original, new HarmonyMethod(prefix), new HarmonyMethod(postfix));
 
                 original = typeof(SpriteText).GetMethod("OnLanguageChange", BindingFlags.Static | BindingFlags.NonPublic);
                 postfix = typeof(ModEntry).GetMethod("OnLanguageChangePostfix", BindingFlags.Static | BindingFlags.Public);
@@ -68,7 +71,7 @@ namespace FixFontOption
             }
             if (config.EnableFixSmallFontLineSpace)
             {
-                Log(String.Format("Enabled to fix line spze for small font"));
+                Log(String.Format("Enabled to fix line space for small font"));
                 original = typeof(Game1).GetMethod("TranslateFields", BindingFlags.Instance | BindingFlags.Public);
                 postfix = typeof(ModEntry).GetMethod("TranslateFieldsPostfix", BindingFlags.Static | BindingFlags.Public);
                 harmony.Patch(original, null, new HarmonyMethod(postfix));
@@ -282,11 +285,33 @@ namespace FixFontOption
                 return true;
             }
         }
+        public static void SetUpCharacterMapPreFix(SpriteText __instance)
+        {
+            try
+            {
+                var _characterMap = helper.Reflection.GetField<Dictionary<char, FontChar>>(typeof(SpriteText), "_characterMap").GetValue();
+
+                if (!LocalizedContentManager.CurrentLanguageLatin
+                    && _characterMap == null
+                    && LocalizedContentManager.CurrentLanguageCode == LocalizedContentManager.LanguageCode.ko)
+                {
+                    setUpCharacterMap = true;
+                }
+            }
+            catch (Exception ex)
+            {
+                Log($"Failed in {nameof(SetUpCharacterMapPreFix)}:\n{ex}", LogLevel.Error);
+            }
+        }
         public static void SetUpCharacterMapPostFix(SpriteText __instance)
         {
             try
             {
-                SpriteText.fontPixelZoom = config.FontPixelZoom;
+                if (setUpCharacterMap)
+                {
+                    SpriteText.fontPixelZoom = config.FontPixelZoom;
+                    setUpCharacterMap = false;
+                }
             }
             catch (Exception ex)
             {
