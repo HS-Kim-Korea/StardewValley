@@ -135,10 +135,12 @@ namespace FixFontOption
         {
             try
             {
-                if (Debug && text != "")
+                string strColor = color.ToString();
+                string strText = text.ToString();
+                if (Debug && strText != "")
                 {
-                    int key = $"{nameof(SpriteBatch_DrawString_Prefix)}:{color}:{text}".GetHashCode();
-                    string value = $"{nameof(SpriteBatch_DrawString_Prefix)}:{color}:{text}";
+                    int key = $"{nameof(SpriteBatch_DrawString_Prefix)}:{strColor}:{strText}".GetHashCode();
+                    string value = $"{nameof(SpriteBatch_DrawString_Prefix)}:{strColor}:{strText}";
                     if (DebugBuffer != null && !DebugBuffer.ContainsKey(key))
                     {
                         DebugBuffer.Add(key, value);
@@ -172,10 +174,12 @@ namespace FixFontOption
         {
             try
             {
-                if (Debug && text.ToString() != "")
+                string strColor = color.ToString();
+                string strText = text.ToString();
+                if (Debug && strText != "")
                 {
-                    int key = $"{nameof(SpriteBatch_DrawString_Prefix)}:{color}:{text}".GetHashCode();
-                    string value = $"{nameof(SpriteBatch_DrawString_Prefix)}:{color}:{text}";
+                    int key = $"{nameof(SpriteBatch_DrawString_Prefix)}:{strColor}:{strText}".GetHashCode();
+                    string value = $"{nameof(SpriteBatch_DrawString_Prefix)}:{strColor}:{strText}";
                     if (DebugBuffer != null && !DebugBuffer.ContainsKey(key))
                     {
                         DebugBuffer.Add(key, value);

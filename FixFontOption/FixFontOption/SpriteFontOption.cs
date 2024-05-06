@@ -49,7 +49,6 @@ namespace FixFontOption
         }
         private void GameLoop_SaveLoaded(object? sender, SaveLoadedEventArgs e)
         {
-            Log("GameLoop_SaveLoaded()", LogLevel.Debug);
             if (HideShadow)
             {
                 Game1.textShadowColor = new(0, 0, 0, 0);
