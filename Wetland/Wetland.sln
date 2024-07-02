@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wetland", "Wetland\Wetland.csproj", "{72A4F89B-200E-4820-A7F5-A50B70C551FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72A4F89B-200E-4820-A7F5-A50B70C551FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72A4F89B-200E-4820-A7F5-A50B70C551FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72A4F89B-200E-4820-A7F5-A50B70C551FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72A4F89B-200E-4820-A7F5-A50B70C551FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB6AE670-C8DE-40DC-8A60-684296508D0B}
+	EndGlobalSection
+EndGlobal

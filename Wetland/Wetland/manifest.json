@@ -1,0 +1,9 @@
+﻿{
+  "Name": "Wetland",
+  "Author": "HS-Kim-Korea",
+  "Version": "1.1.0",
+  "Description": "It can supply a wide range by connecting waterways.",
+  "UniqueID": "HS-Kim-Korea.Wetland",
+  "EntryDll": "Wetland.dll",
+  "MinimumApiVersion": "4.0.8"
+}
