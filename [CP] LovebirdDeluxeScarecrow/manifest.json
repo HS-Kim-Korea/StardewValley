@@ -1,0 +1,11 @@
+{
+  "Name": "[CP] LovebirdDeluxeScarecrow",
+  "Author": "HS-Kim-Korea",
+  "Version": "1.0.0",
+  "Description": "Mandarin duck",
+  "UniqueID": "HS-Kim-Korea.CP.LovebirdDeluxeScarecrow",
+  "MinimumApiVersion": "3.0.0",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

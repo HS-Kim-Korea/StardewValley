@@ -1,0 +1,14 @@
+{
+  "Format": "2.0.0",
+  "Changes": [
+    {
+      "Action": "Include",
+      "FromFile": "data/BigCraftables.json"
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/HS-Kim-Korea.CP.LovebirdDeluxeScarecrow/assets/LovebirdDeluxeScarecrow",
+      "FromFile": "assets/{{TargetWithoutPath}}.png"
+    }
+  ]
+}

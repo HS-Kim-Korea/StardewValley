@@ -1,0 +1,25 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/BigCraftables",
+      "Entries": {
+        "HS-Kim-Korea.CP.LovebirdDeluxeScarecrow_LovebirdDeluxeScarecrow":{
+          "Name": "HS-Kim-Korea.CP.LovebirdDeluxeScarecrow_LovebirdDeluxeScarecrow",
+          "DisplayName": "{{i18n:LovebirdDeluxeScarecrow_Name}}",
+          "Description": "{{i18n:LovebirdDeluxeScarecrow_Description}}",
+          "Texture": "Mods/HS-Kim-Korea.CP.LovebirdDeluxeScarecrow/assets/LovebirdDeluxeScarecrow",
+          "ContextTags": [ "crow_scare", "crow_scare_radius_20"],
+          "Fragility": 0
+         }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "HS-Kim-Korea.CP.LovebirdDeluxeScarecrow_LovebirdDeluxeScarecrow": "388 5 337 1 72 1/Home/HS-Kim-Korea.CP.LovebirdDeluxeScarecrow_LovebirdDeluxeScarecrow/true/Farming 2/"
+      }
+    }
+  ]
+}
